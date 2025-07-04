@@ -1,5 +1,3 @@
-# Main Page
----
 **Navigation**
 - Main page (We're here!)
 - Journal page
@@ -8,6 +6,8 @@
 
 <br>
 
+# Main Page
+---
 ***Hero Section*** (Big catchy card)
 - Catchy text
 - Short description
@@ -16,7 +16,6 @@
 <br>
 
 ***Upper Web*** (Introduction)
-- Heading or title of the website and below it text description
 - Explanation about me and who am i
 - What I'm good at or the real portfolio session
 
@@ -35,6 +34,5 @@
 <br>
 <br>
 
----
 ### *Yapping*
 Mikir kidz
