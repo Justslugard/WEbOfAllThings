@@ -1,4 +1,5 @@
  * {
+  overflow: hidden;
   box-sizing: border-box;
   margin: 0;
   font-family: "Share", sans-serif;
@@ -10,21 +11,30 @@
   align-items: center;
   justify-content: center;
   height: 90vh;
-  width: 100%;
+  width: 100vw;
 }
-#header > h1, #header > h2 {
+#heroCard > div {
+  max-width: 1225px;
+}
+#header > h1 {
   font-weight: 100;
   font-family: "Share Tech", "sans-serif";
   display: inline-block;
   width: auto;
 }
+#webThings {
+  font-family: 'Share', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
 #main > p {
   letter-spacing: 2px;
-  margin-top: 10px;
-  width: 50%;
+  margin-top: 5px;
+  width: 45%;
   color: #8a8787;
   font-style: italic;
 }
 /* body {
   background-color: #1a1d1e;
-}\
+} */
