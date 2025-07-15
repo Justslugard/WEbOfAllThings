@@ -36,10 +36,12 @@
   font-style: italic;
 }
 #heroCard #links {
+  overflow: visible;
   display: flex;
+  /* padding-left: 10px; */
   gap: 10px;
   margin-top: 7px;
-  height: 30px;
+  height: 50px;
 }
 #heroCard #links > #ContactMe {
   padding: 5px;
@@ -47,19 +49,29 @@
   font-size: 1.2rem;
   font-weight: 600;
   width: 120px;
+  height: 30px;
+  transition: 0.3s;
   background-color: #4B4646;
   color: #DFDFDF;
   font-style: italic;
   text-align: center;
   border: none;
   cursor: pointer;
+  transform-origin: left;
 }
 #heroCard #links > #Who {
   padding-top: 8px;
+  transition: 0.3s;
+  font-size: 1.2rem;
   color: #919090;
   cursor: pointer;
-  font-size: 1.2rem;
   text-decoration: underline;
+}
+#heroCard #links > #ContactMe:hover {
+  transform: scale(1.07, 1.07);
+}
+#heroCard #links > #Who:hover {
+  transform: scale(1.17, 1.17);
 }
 /* body {
   background-color: #1a1d1e;
