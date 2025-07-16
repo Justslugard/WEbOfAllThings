@@ -1,0 +1,84 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Share", sans-serif;
+  scroll-behavior: smooth;
+}
+#heroCard {
+  font-size: 1.5rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/gb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#heroCard > div {
+  max-width: 1225px;
+  margin-bottom: 10px;
+}
+#heroCard .header > h1 {
+  color: aliceblue;
+  font-weight: 100;
+  font-family: "Share Tech", "sans-serif";
+  display: inline-block;
+  width: auto;
+}
+#webThings {
+  font-family: 'Share', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+#heroCard .main > p {
+  letter-spacing: 2px;
+  margin-top: 5px;
+  width: 45%;
+  color: #8a8787;
+  font-style: italic;
+}
+#heroCard .links {
+  overflow: visible;
+  display: flex;
+  /* padding-left: 10px; */
+  gap: 10px;
+  margin-top: 7px;
+  height: 50px;
+}
+#heroCard .links > #ContactMe {
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 120px;
+  height: 30px;
+  transition: 0.3s;
+  background-color: #4B4646;
+  color: #DFDFDF;
+  font-style: italic;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transform-origin: left;
+}
+#heroCard .links > #Who {
+  padding-top: 8px;
+  transition: 0.3s;
+  font-size: 1.2rem;
+  color: #919090;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#heroCard .links > #ContactMe:hover {
+  transform: scale(1.07, 1.07);
+}
+#heroCard .links > #Who:hover {
+  transform: scale(1.17, 1.17);
+}
+/* body {
+  background-color: #1a1d1e;
+} */
